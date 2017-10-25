@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImgButton">
+        <attr format="color" name="ibDefaultColor"/>
+        <attr format="string" name="ibText"/>
+        <attr format="color" name="ibTextColor"/>
+        <attr format="dimension" name="ibTextSize"/>
+        <attr format="reference" name="ibImgSrc" />
+        <attr format="enum" name="ibImgPosition">
+            <enum name="left" value="1"/>
+        </attr>
+        <attr format="color" name="ibFocusColor"/>
+    </declare-styleable>
+</resources>
