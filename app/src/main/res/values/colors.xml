@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Default Android Studio
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    -->
 
-    <!--My Theme-->
-    <color name="text_primary">#212121</color>
-    <color name="text_secondary">#727272</color>
-
-    <!--Numpad Colors-->
-    <color name="icons">#FFFFFF</color>
-    <color name="borderline">#D0CFD4</color>
-    <color name="divider">#B6B6B6</color>
-    <color name="rvcontent_textcolor">#FFFFFF</color>
+    <color name="colorPrimary">#698EB6</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorButton">#F0F0F0</color>
 </resources>
