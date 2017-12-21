@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:gravity="center|end"
-            android:text="125,000"
+            android:text="0"
             android:textColor="@color/colorButton"
             android:textSize="@dimen/text_small"
             android:textAlignment="textEnd"
@@ -37,7 +37,7 @@
             android:paddingRight="@dimen/margin_large"
             android:paddingLeft="@dimen/margin_large"
             android:gravity="center|end"
-            android:text="5,000"
+            android:text=""
             android:textColor="@color/colorButton"
             android:textSize="@dimen/text_large"
             android:textAlignment="textEnd"/>
@@ -67,7 +67,7 @@
             android:layout_width="@dimen/button"
             android:layout_height="@dimen/button"
             android:background="@drawable/rounded_white_button"
-            android:text="C"
+            android:text="c"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="@dimen/text_medium"
             android:layout_margin="@dimen/margin_small"
@@ -78,10 +78,11 @@
             android:layout_width="@dimen/button"
             android:layout_height="@dimen/button"
             android:background="@drawable/rounded_white_button"
-            android:text="del"
+            android:drawableLeft="@drawable/ic_delete_blue_24dp"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="@dimen/text_medium"
             android:layout_margin="@dimen/margin_small"
+            android:paddingLeft="@dimen/margin_xlarge"
             android:layout_toRightOf="@id/btnClear"
             android:layout_alignParentTop="true"/>
         <Button
@@ -123,7 +124,8 @@
             android:layout_height="@dimen/button"
             android:background="@drawable/rounded_blue_button"
             android:layout_margin="@dimen/margin_small"
-            android:text="/"
+            android:paddingLeft="@dimen/margin_xlarge"
+            android:drawableLeft="@drawable/ic_divide_white_24px"
             android:textSize="@dimen/text_medium"
             android:textColor="@color/colorButton"
             android:layout_alignParentTop="true"
@@ -167,7 +169,8 @@
             android:layout_height="@dimen/button"
             android:background="@drawable/rounded_blue_button"
             android:layout_margin="@dimen/margin_small"
-            android:text="x"
+            android:paddingLeft="@dimen/margin_xlarge"
+            android:drawableLeft="@drawable/ic_multiply_white_24dp"
             android:textSize="@dimen/text_medium"
             android:textColor="@color/colorButton"
             android:layout_below="@id/btnDiv"
@@ -255,10 +258,11 @@
             android:layout_height="@dimen/button"
             android:background="@drawable/rounded_blue_button"
             android:layout_margin="@dimen/margin_small"
-            android:text="+"
             android:textSize="@dimen/text_medium"
             android:textColor="@color/colorButton"
             android:layout_below="@id/btnMinus"
-            android:layout_toRightOf="@id/btn3"/>
+            android:layout_toRightOf="@id/btn3"
+            android:drawableLeft="@drawable/ic_add_white_24dp"
+            android:padding="@dimen/margin_xlarge"/>
     </RelativeLayout>
 </LinearLayout>
