@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
         input1 = Double.valueOf(0);
         input2 = Double.valueOf(0);
         hasil = Double.valueOf(0);
-        flag = "0";
         tvEdit.setText("");
         tvView.setText("0");
     }
